@@ -1,0 +1,13 @@
+{
+  "name": "zafarjonovich/yii2-wave-loader",
+  "description": "Wave loader for yii2 web applications",
+  "type": "package",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "zafarjonovich\\yii2WaveLoader\\": "src"
+    }
+  }
+}
