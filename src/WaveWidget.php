@@ -29,7 +29,11 @@ class WaveWidget extends Widget
 
     public function run()
     {
-        return Html::tag('div',[
+        $content = Html::tag('div','',[
+            'class' => 'water'
+        ]);
+
+        return Html::tag('div',$content,[
             'class' => 'yii2-loader'
         ]);
     }
